@@ -1,0 +1,299 @@
+@media (max-width: 2560px) {
+
+  .header {
+    justify-content: space-between;
+    margin: 4rem;
+    
+
+    &__logo {
+      font-size: 3rem;
+      margin-left: 8rem;
+    }
+
+    &__menu {
+      font-size: 3rem;
+    }
+
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image {
+      width: 80vw;
+      height: 80vh;
+      background-size: 100%;
+      background-position: center;
+      place-content: center;
+    }
+
+    &__text {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      &__1 {
+        font-size: 1vw;
+        margin-bottom: 2rem;
+      }
+      &-2, &-3, &-4 {
+        font-size: 30px;
+      }
+    }
+  }
+    .footer {
+      margin-top: 4rem;
+      justify-content: center;
+      
+      i {
+        font-size: 3rem;
+      }
+    }
+ 
+}
+
+@media (max-width: 1440px) {
+
+  .header {
+    justify-content: space-between;
+    margin: 4rem;
+    height: 40%;
+
+    &__logo {
+      font-size: 3rem;
+      margin-left: 8rem;
+    }
+
+    &__menu {
+      font-size: 3rem;
+    }
+
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image {
+      width: 80vw;
+      height: 80vh;
+      background-size: 100%;
+      background-position: center;
+      place-content: center;
+    }
+
+    &__text {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      &__1 {
+        font-size: 3vw;
+        margin-bottom: 2rem;
+      }
+      &-2, &-3, &-4 {
+        font-size: 3vw;
+      }
+    }
+  }
+    .footer {
+      margin-top: 4rem;
+      justify-content: center;
+      
+      i {
+        font-size: 3rem;
+      }
+    }
+ 
+}
+
+@media (max-width: 1024px) {
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    height: 40%;
+    
+    &__logo {
+      font-size: 3vw;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    &__menu {
+      font-size: 3vw;
+      align-items: center;
+    }
+
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vw;
+
+    &__image {
+      width: 80vw;
+      height: 80vh;
+      background-size: 100%;
+      background-position: center;
+      place-content: center;
+      
+    }
+
+    &__text {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      &__1 {
+        font-size: 4vw;
+        margin-bottom: 2rem;
+      }
+      &-2, &-3, &-4 {
+        font-size: 3vw;
+      }
+    }
+  }
+    .footer {
+      margin-top: 4rem;
+      justify-content: center;
+      
+      i {
+        font-size: 3rem;
+      }
+    }
+ 
+ 
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+
+    
+    &__logo {
+      font-size: 2rem;
+      align-items: center;
+      margin-bottom: 3rem;
+    }
+
+    &__menu {
+      font-size: 2rem;
+      align-items: center;
+    }
+
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+
+    &__image {
+      width: 80vw;
+      height: 80vh;
+      background-size: 100%;
+      background-position: center;
+      margin: 4vw;
+    }
+
+    &__text {
+      width: 100%;
+      margin-top: 3rem;
+      
+      &__1 {
+        font-size: 3vw;
+        margin-bottom: 2rem;
+      }
+      
+      &-2, &-3, &-4 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .footer {
+    justify-content: center;
+    margin: 3rem;
+
+    i {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  
+    &__logo {
+      font-size: 2rem;
+      margin: auto;
+      margin-bottom: 3rem;
+    }
+
+    &__menu {
+      font-size: 1.5rem;
+    }
+
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+
+    &__image {
+      width: 80vw;
+      height: 80vh;
+      background-size: 100%;
+      background-position: center;
+      margin: 4rem;
+    }
+
+    &__text {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      &-1 {
+
+        font-size: 15vw;
+        margin-bottom: 2rem;
+      }
+
+      &-2, &-3, &-4 {
+        font-size: 6vw;
+      }
+    }
+  }
+    .footer {
+      height: 20%;
+      justify-content: center;
+      
+      i {
+        font-size: 2rem;
+      }
+    }
+ 
+}
+  
